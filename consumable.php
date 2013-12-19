@@ -50,22 +50,7 @@ if(isset($_GET['entry'])){
             <li><a href="http://www.reddit.com/message/compose/?to=DrJohnley">Help</a></li>
             
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-		<div id ="search"><form action="search.php" method="get">
-            <div class="input-group custom-search-form">
-            
-              <input type="text" class="form-control" name="q">
-              <span class="input-group-btn">
-              <button class="btn btn-default" type="submit">
-              <span class="glyphicon glyphicon-search"></span>
-             </button>
-             </span>
-             
-             </div><!-- /input-group -->
-             </form>
-        </div>
-	</div>
-                   </ul>
+          
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -92,7 +77,7 @@ if(isset($_GET['entry'])){
 	$display_string .= "<table class=\"table\">";
 	$display_string .= "<tr><td>Rarity: </td><td>".$json->rarity."</td></tr>";
 	$display_string .= "<tr><td>Description: </td><td>".$json->description."</td></tr>";
-	$display_string .= "<tr><td>Effects: </td><td><table class=\"table\"><tr><td>".$json->effects[0][0]->kind."</td><td>".$json->effects[0][0]->amount."</td></tr><tr><td>".$json->effects[0][2]->kind."</td><td>".$json->effects[0][2]->amount."</td></tr></table></tr>";
+	$display_string .= "<tr><td>Effects: </td><td><table class=\"table\"><tr><td>".$json->effects[0][0]->kind."</td><td>".$json->effects[0][0]->amount."</td></tr><tr><td>".$json->effects[0][1]->kind."</td><td>".$json->effects[0][1]->amount."</td></tr><tr><td>".$json->effects[0][2]->kind."</td><td>".$json->effects[0][2]->amount."</td></tr></table></td></tr>";
 	$display_string .= "</table>";
 
 	$display_string .= "</div>";

@@ -47,22 +47,7 @@
             <li><a href="http://www.reddit.com/message/compose/?to=DrJohnley">Help</a></li>
             
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-		<div id ="search"><form action="search.php" method="get">
-            <div class="input-group custom-search-form">
-            
-              <input type="text" class="form-control" name="q">
-              <span class="input-group-btn">
-              <button class="btn btn-default" type="submit">
-              <span class="glyphicon glyphicon-search"></span>
-             </button>
-             </span>
-             
-             </div><!-- /input-group -->
-             </form>
-        </div>
-	</div>
-                   </ul>
+          
         </div><!--/.nav-collapse -->
       </div>
     </div>

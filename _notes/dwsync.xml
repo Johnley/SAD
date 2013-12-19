@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="index.php" server="johnconley.me/web/SBAssets2/" local="130319645391638089" remote="130319648250000000" Dst="1" />
-<file name="categories.php" server="johnconley.me/web/SBAssets2/" local="130319649189960940" remote="130319649260000000" Dst="1" />
-<file name="codex.php" server="johnconley.me/web/SBAssets2/" local="130319644259181027" remote="130319644340000000" Dst="1" />
+<file name="index.php" server="johnconley.me/web/SBAssets2/" local="130319658504797629" remote="130319658580000000" Dst="1" />
+<file name="categories.php" server="johnconley.me/web/SBAssets2/" local="130319658140519550" remote="130319658370000000" Dst="1" />
+<file name="codex.php" server="johnconley.me/web/SBAssets2/" local="130319658140749689" remote="130319658370000000" Dst="1" />
 <file name="codexchecker.php" server="johnconley.me/web/SBAssets2/" local="130319297487362264" remote="130319448990000000" Dst="1" />
-<file name="tech.php" server="johnconley.me/web/SBAssets2/" local="130319647357299012" remote="130319647440000000" Dst="1" />
+<file name="tech.php" server="johnconley.me/web/SBAssets2/" local="130319658142751029" remote="130319658360000000" Dst="1" />
 <file name="techchecker.php" server="johnconley.me/web/SBAssets2/" local="130319477929255381" remote="130319478100000000" Dst="1" />
-<file name="consumable.php" server="johnconley.me/web/SBAssets2/" local="130319646638913772" remote="130319646710000000" Dst="1" />
+<file name="consumable.php" server="johnconley.me/web/SBAssets2/" local="130319681571706825" remote="130319681640000000" Dst="1" />
 <file name="consumablechecker.php" server="johnconley.me/web/SBAssets2/" local="130319487257669722" remote="130319487330000000" Dst="1" />
 <file name="item.php" server="johnconley.me/web/SBAssets2/" local="130319648558175244" remote="130319648640000000" Dst="1" />
-<file name="armor.php" server="johnconley.me/web/SBAssets2/" local="130319645890743808" remote="130319645970000000" Dst="1" />
+<file name="armor.php" server="johnconley.me/web/SBAssets2/" local="130319658140329422" remote="130319658370000000" Dst="1" />
 <file name="armorchecker.php" server="johnconley.me/web/SBAssets2/" local="130319549904279031" remote="130319549970000000" Dst="1" />
-<file name="object.php" server="johnconley.me/web/SBAssets2/" local="130319644923168087" remote="130319645030000000" Dst="1" />
+<file name="object.php" server="johnconley.me/web/SBAssets2/" local="130319679839118397" remote="130319679910000000" Dst="1" />
 <file name="sitemap.xml" server="johnconley.me/web/SBAssets2/" local="130319584978853938" remote="130319585590000000" Dst="1" />
 <file name="googleed2c39761e46cc54.html" server="johnconley.me/web/SBAssets2/" local="130319587776299671" remote="130319587940000000" Dst="1" />
-<file name="search.php" server="johnconley.me/web/SBAssets2/" local="130319645535766927" remote="130319645970000000" Dst="1" />
+<file name="search.php" server="johnconley.me/web/SBAssets2/" local="130319658142070572" remote="130319658370000000" Dst="1" />
 <file name="codexviewer.php" server="johnconley.me/web/SBAssets2/" local="130319297410000000" remote="130319297410000000" Dst="1" />
+<file name="README.md" server="johnconley.me/web/SBAssets2/" local="130319656040210847" remote="130319658370000000" Dst="1" />
+<file name=".gitignore" server="johnconley.me/web/SBAssets2/" local="130277572029932124" remote="130319658380000000" Dst="1" />
+<file name=".gitattributes" server="johnconley.me/web/SBAssets2/" local="130277572029611927" remote="130319658380000000" Dst="1" />
 </dwsync>
