@@ -1,0 +1,39 @@
+{
+  "itemName" : "florantier2chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Steel, reinforced with bone and padded with leather made from the skin of hunted prey.",
+  "shortdescription" : "Bonesmith's Chestguard",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "7.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 15
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 35
+    }
+  ]
+}

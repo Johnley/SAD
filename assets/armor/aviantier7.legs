@@ -1,0 +1,30 @@
+{
+  "itemName" : "aviantier7pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Boots made from Cerulium are said to never take a wrong step. This has not been confirmed.",
+  "shortdescription" : "Peacock Skirt",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "13"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 48
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 2.2
+    }
+  ]
+}

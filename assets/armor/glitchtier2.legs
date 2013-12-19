@@ -1,0 +1,31 @@
+{
+  "itemName" : "glitchtier2pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The lifespan of a glitch soldier is as short as these pants.",
+  "shortdescription" : "Soldier's Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "3"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 6
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.35
+    }
+  ]
+}
+

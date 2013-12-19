@@ -1,0 +1,30 @@
+{
+  "itemName" : "hylotltier3pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Masters of sabotage, a river shinobi builds his titanium leggings for noiselessness. ",
+  "shortdescription" : "River Leggings",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "5"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 11
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.7
+    }
+  ]
+}

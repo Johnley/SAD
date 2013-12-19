@@ -1,0 +1,20 @@
+{
+  "itemName" : "wedding1legs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Traditional Wedding Dress. Can even be worn over armour, just in case.",
+  "shortdescription" : "Wedding Dress",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "itemName" : "thinkingcap",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Strange! The closer this thing gets to my head, the smarter I feel...",
+  "shortdescription" : "Thinking Cap",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 1,
+      "amount" : 0.2
+    }
+  ]
+}

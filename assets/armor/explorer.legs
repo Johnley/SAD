@@ -1,0 +1,20 @@
+{
+  "itemName" : "explorerlegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Explorer's Leg Armour. This armour is perfect for exploring in.",
+  "shortdescription" : "Explorer's Leg Armour",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    }
+  ]
+}

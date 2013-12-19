@@ -1,0 +1,31 @@
+{
+  "itemName" : "glitchtier8pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The templars are a mysterious order some say secretly run glitch society.",
+  "shortdescription" : "Templar's Greaves",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "15"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 64
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 2.7
+    }
+  ]
+}
+

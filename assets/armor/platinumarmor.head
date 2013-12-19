@@ -1,0 +1,31 @@
+{
+  "itemName" : "platinumarmorhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Platinum helmet. For the best and brightest.",
+  "shortdescription" : "Platinum Helmet",
+  "inspectionKind" : "armor",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 13,
+      "amount" : 33
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 117.5
+    }
+  ]
+}

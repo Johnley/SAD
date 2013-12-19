@@ -1,0 +1,32 @@
+{
+  "itemName" : "apextier5head",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A hood that hides the wearer - Perfect for covert operations.",
+  "shortdescription" : "Rogue's Hood",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "13.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 31,
+      "amount" : 39
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 135
+    }
+  ]
+}

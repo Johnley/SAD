@@ -1,0 +1,30 @@
+{
+  "itemName" : "humantier6pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "These pants count the number of steps you take through sophisticated circuitry.",
+  "shortdescription" : "Seeker's Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "11"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 36
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 1.75
+    }
+  ]
+}

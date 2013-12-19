@@ -1,0 +1,21 @@
+{
+  "itemName" : "eyehead",
+  "inventoryIcon" : "headicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A helmet with a big eyeball in the centre. Practical!",
+  "shortdescription" : "All-Seeing Helmet",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    }
+  ]
+}

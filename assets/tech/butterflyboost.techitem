@@ -1,0 +1,10 @@
+{
+  "itemName" : "butterflyboost",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/butterflyboost.png",
+  "description" : "Unlocks the Butterfly Boost tech.",
+  "shortdescription" : "Butterfly Boost",
+  "inspectionKind" : "tech",
+
+  "techModule" : "butterflyboost.tech"
+}

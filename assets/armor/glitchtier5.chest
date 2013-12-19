@@ -1,0 +1,41 @@
+{
+  "itemName" : "glitchtier5chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The lancer's breastplate is capable of absorbing shock enough to keep a rider on his mount whilst shattering a lance.",
+  "shortdescription" : "Lancer's Breastplate",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "22.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 31,
+      "amount" : 65
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 135
+    }
+
+  ]
+}

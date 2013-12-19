@@ -1,0 +1,39 @@
+{
+  "itemName" : "hylotltier10chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Aphotic armour is worn by only the most revered in Hylotl society.",
+  "shortdescription" : "Aphotic Chestguard",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }, 
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "47.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 36,
+      "amount" : 250
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 400
+    }
+  ]}

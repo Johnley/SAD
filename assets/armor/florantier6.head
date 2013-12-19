@@ -1,0 +1,31 @@
+{
+  "itemName" : "florantier6head",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "This Ferozium headpiece is built to protect a floran wiseman's brain at all costs.",
+  "shortdescription" : "Wiseman's Thinking Hat",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "16.5"
+    },
+    {
+      "kind" : "Protection",
+      "level" : 32,
+      "amount" : 54
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 175
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "itemName" : "corobockle",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A person can be a hat too, right?",
+  "shortdescription" : "Corobockle",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 1,
+      "amount" : 0.2
+    }
+  ]
+}

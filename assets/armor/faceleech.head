@@ -1,0 +1,27 @@
+{
+  "itemName" : "faceleech",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Oh no, a face leech! Oh, but wait, it's friendly. Alright, little guy, you can stay.",
+  "shortdescription" : "Benevolent Face Leech",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 1,
+      "amount" : 0.2
+    }
+  ]
+}

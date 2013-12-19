@@ -1,0 +1,31 @@
+{
+  "itemName" : "t2helm2",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Don't be caught dead without this neat welder's helmet.",
+  "shortdescription" : "Neat Welder's Helmet",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "10"
+    },
+	
+	{
+      "kind" : "protection",
+      "amount" : 13
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 45
+    }
+  ]
+}

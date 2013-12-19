@@ -1,0 +1,32 @@
+{
+  "itemName" : "humantier4head",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The Durasteel helm of the outrider is built for communication. This one doesn't work.",
+  "shortdescription" : "Outrider's Helm",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "10.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 30,
+      "amount" : 27
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 100
+    }
+  ]
+}

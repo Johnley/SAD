@@ -1,0 +1,30 @@
+{
+  "itemName" : "florantier2pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Ground stomach contents was used to dye this loincloth and boots. ",
+  "shortdescription" : "Bonesmith's Loincloth",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "3"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 6
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.35
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "silverarmorhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Silver helmet. For the shiny.",
+  "shortdescription" : "Silver Helmet",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "coldprotection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 6.75
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 25
+    }
+  ]
+}

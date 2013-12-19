@@ -1,0 +1,39 @@
+{
+  "itemName" : "copperarmorchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Copper chestpiece. For the practical.",
+  "shortdescription" : "Copper Chestpiece",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "coldprotection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 3.75	
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 7.5
+    }
+  ]
+}

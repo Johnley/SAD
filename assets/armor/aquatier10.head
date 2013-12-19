@@ -1,0 +1,32 @@
+{
+  "itemName" : "hylotltier10head",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The aphotic emperors that don this armour are said to have seen unimaginable things in the dark of the deepest oceans.",
+  "shortdescription" : "Aphotic Fin",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "28.5"
+    },
+    {
+      "kind" : "Protection",
+      "level" : 36,
+      "amount" : 150
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 400
+    }
+  ]
+}
+

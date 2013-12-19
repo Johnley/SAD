@@ -1,0 +1,38 @@
+{
+  "itemName" : "snowinfantrychest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Snow infantry chestpiece. For when a planet's giving you the cold shoulder.",
+  "shortdescription" : "Snow Infantry Chest",
+  "inspectionKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "47.5"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 2
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 10
+    }
+  ]
+}

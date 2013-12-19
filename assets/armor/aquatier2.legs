@@ -1,0 +1,30 @@
+{
+  "itemName" : "hylotltier2pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Steel greaves built with a grip that keeps the wearer steady when riding a giant fish.",
+  "shortdescription" : "Pond Greaves",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "3"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 6
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.35
+    }
+  ]
+}

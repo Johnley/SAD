@@ -1,0 +1,40 @@
+{
+  "itemName" : "aviantier8chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The heavy weight of each link in this Violium-mail suit strengthens the wearer's devotion to Kluex.",
+  "shortdescription" : "Flamingo Chainmail",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "37.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 34,
+      "amount" : 160
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 270
+    }
+  ]
+}

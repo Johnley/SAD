@@ -1,0 +1,39 @@
+{
+  "itemName" : "florantier1chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "It's rare to see a sprout chestguard not covered in dents, blood and sometimes vital organs.",
+  "shortdescription" : "Sprout's Chestguard",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "2.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 7.5
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 15
+    }
+  ]
+}

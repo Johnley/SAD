@@ -1,0 +1,32 @@
+{
+  "itemName" : "apextier6head",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Headgear that completely covers the wearer's face, but has some classy goggles to see with.",
+  "shortdescription" : "Spy's Hood",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "16.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 32,
+      "amount" : 54
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 175
+    }
+  ]
+}

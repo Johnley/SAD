@@ -1,0 +1,25 @@
+{
+  "itemName" : "traineelegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Some trainee pants used for combat training.",
+  "shortdescription" : "Trainee Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pantsM.png",
+  "femaleFrames" : "pantsF.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 0
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "itemName" : "platinumarmorchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Platinum chestpiece. For the best and brightest.",
+  "shortdescription" : "Platinum Chestpiece",
+  "inspectionKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 13,
+      "amount" : 55
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 117.5
+    }
+  ]
+}

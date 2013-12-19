@@ -1,0 +1,30 @@
+{
+  "itemName" : "copperarmorpants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Copper greaves. For the practical.",
+  "shortdescription" : "Copper Greaves",
+  "inspectionKind" : "armor",
+  
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "coldprotection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 1.5
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.08
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "itemName" : "spacemarinechest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Power Armour Chestpiece. Heavy-duty armour.",
+  "shortdescription" : "Power Armour Chestpiece",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "augments" : [
+    { "name" : "lighttoenergy" },
+    { "name" : "spiked" },
+    { "name" : "glow" }
+  ],
+
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "10"
+    }
+
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "glitchtier9head",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The legionnaire's are the forward thinking elite knights of the empire. Their helms reflect the fashions of the future.",
+  "shortdescription" : "Legionnaire's Helm",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "25.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 35,
+      "amount" : 120
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 330
+    }
+  ]
+}

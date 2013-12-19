@@ -1,0 +1,30 @@
+{
+  "itemName" : "florantier1pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "These anklets are built scant to remind young floran to draw power from the sun.",
+  "shortdescription" : "Sprout's Anklets",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "coldprotection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 3
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.15
+    }
+  ]
+}

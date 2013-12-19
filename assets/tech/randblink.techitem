@@ -1,0 +1,10 @@
+{
+  "itemName" : "randblinktech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/blink.png",
+  "description" : "Teleport to random places with this Random Blink tech!",
+  "shortdescription" : "Random Blink",
+  "inspectionKind" : "tech",
+
+  "techModule" : "randblink.tech"
+}

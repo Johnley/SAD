@@ -1,0 +1,30 @@
+{
+  "itemName" : "goldarmorhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Gold helmet. For the decadent.",
+  "shortdescription" : "Gold Helmet",
+  "inspectionKind" : "armor",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 12.75
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 52.5
+    }
+  ]
+}

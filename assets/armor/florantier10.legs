@@ -1,0 +1,30 @@
+{
+  "itemName" : "florantier10pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A kick from an armored synthesizer can shatter bone.",
+  "shortdescription" : "Synthesizer's Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "19"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 100
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 4
+    }
+  ]
+}

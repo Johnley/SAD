@@ -1,0 +1,30 @@
+{
+  "itemName" : "aviantier9pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Some say that these Rubium leg-coverings grant their wearer mythical swiftness. Others say that it's all made up.",
+  "shortdescription" : "Phoenix Greaves",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "17"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 80
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 3.3
+    }
+  ]
+}

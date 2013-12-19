@@ -1,0 +1,30 @@
+{
+  "itemName" : "aviantier3pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Generic titanium pants, used for general pant-related duties.",
+  "shortdescription" : "Quail Greaves",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "5"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 11
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.7
+    }
+  ]
+}

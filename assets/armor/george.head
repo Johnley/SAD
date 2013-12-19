@@ -1,0 +1,27 @@
+{
+  "itemName" : "georgehead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Some sexy glasses that belong to George. Can you handle them!?",
+  "shortdescription" : "George's Foxy Glasses",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 1,
+      "amount" : 0.2
+    }
+  ]
+}

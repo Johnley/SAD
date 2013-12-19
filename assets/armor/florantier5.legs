@@ -1,0 +1,30 @@
+{
+  "itemName" : "florantier5pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "It's said the sun itself could not stand between a cannibal and his meal.",
+  "shortdescription" : "Cannibal's Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "9"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 26
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 1.35
+    }
+  ]
+}

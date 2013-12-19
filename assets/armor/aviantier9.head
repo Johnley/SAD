@@ -1,0 +1,33 @@
+{
+  "itemName" : "aviantier9head",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A shining battle helm made from bright, pure Rubium.",
+  "shortdescription" : "Phoenix Helm",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "25.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 35,
+      "amount" : 120
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 330
+    }
+  ]
+}
+

@@ -1,0 +1,30 @@
+{
+  "itemName" : "hylotltier4pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Lake warden durasteel greaves allow the wearer to stand at his post for many hours.",
+  "shortdescription" : "Lake Greaves",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "7"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 18
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 1.0
+    }
+  ]
+}

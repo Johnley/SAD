@@ -1,0 +1,30 @@
+{
+  "itemName" : "hylotltier5pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "It is said a fully grown reef gatherer could step on a batch of hylotl spawn with these pants without harming it.",
+  "shortdescription" : "Reef Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "9"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 26
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 1.35
+    }
+  ]
+}

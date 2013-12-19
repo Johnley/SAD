@@ -1,0 +1,30 @@
+{
+  "itemName" : "hylotltier9pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Disphot greaves are infused with polished Rubium.",
+  "shortdescription" : "Disphotic Greaves",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "17"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 80
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 3.3
+    }
+  ]
+}

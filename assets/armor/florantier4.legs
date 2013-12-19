@@ -1,0 +1,30 @@
+{
+  "itemName" : "florantier4pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The hunter's skirt is built from leather with a thread of durasteel holding it together.",
+  "shortdescription" : "Hunter's Skirt",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "7"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 18
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 1.0
+    }
+  ]
+}

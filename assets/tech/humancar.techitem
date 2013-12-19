@@ -1,0 +1,10 @@
+{
+  "itemName" : "humancar",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humancar.png",
+  "description" : "Use this tech, spawn a car. Then drive.",
+  "shortdescription" : "Human Car",
+  "inspectionKind" : "tech",
+
+  "techModule" : "humancar.tech"
+}

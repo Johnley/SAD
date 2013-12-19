@@ -1,0 +1,25 @@
+{
+  "itemName" : "georgelegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Some form fitting and sexy pants made specifically for George's bodacious curves! Bask in the glory!",
+  "shortdescription" : "George's Sexy Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+    {
+      "kind" : "Protection",
+      "level" : 1,
+      "amount" : 0.3
+    }
+  ]
+}

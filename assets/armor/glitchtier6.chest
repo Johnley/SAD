@@ -1,0 +1,41 @@
+{
+  "itemName" : "glitchtier6chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The crusader's breastplate is forged of pure Ferozium. It contains a third brain for extra long crusades.",
+  "shortdescription" : "Crusader's Breastplate",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "27.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 32,
+      "amount" : 90
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 175
+    }
+
+  ]
+}

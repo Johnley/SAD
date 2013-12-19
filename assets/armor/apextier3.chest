@@ -1,0 +1,40 @@
+{
+  "itemName" : "apextier3chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A jacket that has titanium shoulder guards and shock-resistant padding.",
+  "shortdescription" : "Insurgent's Jacket",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "12.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 25,
+      "amount" : 27.5
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 70
+    }
+  ]
+}

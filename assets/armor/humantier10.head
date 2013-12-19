@@ -1,0 +1,32 @@
+{
+  "itemName" : "humantier10head",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "This impervium helm contains a voice box changer. Side effects may include picking up any heavy breathing.",
+  "shortdescription" : "Universalist's Helm",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "28.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 36,
+      "amount" : 150
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 400
+    }
+  ]
+}

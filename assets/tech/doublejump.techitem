@@ -1,0 +1,10 @@
+{
+  "itemName" : "doublejumpTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/doublejump.png",
+  "description" : "Unlocks the Pulse Jump tech.",
+  "shortdescription" : "Pulse Jump",
+  "inspectionKind" : "tech",
+
+  "techModule" : "doublejump.tech"
+}

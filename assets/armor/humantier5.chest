@@ -1,0 +1,40 @@
+{
+  "itemName" : "humantier5chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Chosen for its strength on the battlefield. The vanguard flak jacket has saved many lives.",
+  "shortdescription" : "Vanguard's Flak Jacket",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "22.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 31,
+      "amount" : 65
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 135
+    }
+  ]
+}

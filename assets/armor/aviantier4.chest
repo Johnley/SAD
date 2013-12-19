@@ -1,0 +1,40 @@
+{
+  "itemName" : "aviantier4chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A comfortable tunic, bound in durasteel for added durability.",
+  "shortdescription" : "Owl Breastplate",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "17.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 30,
+      "amount" : 45
+    },
+
+    {
+      "kind" : "healthincrease",
+      "amount" : 100
+    }
+  ]
+}

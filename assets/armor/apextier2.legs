@@ -1,0 +1,30 @@
+{
+  "itemName" : "apextier2pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Steel-plated leg armour that doesn't restrict the movement of the wearer.",
+  "shortdescription" : "Rebel's Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "3"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 6
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.35
+    }
+  ]
+}

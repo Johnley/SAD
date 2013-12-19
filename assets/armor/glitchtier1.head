@@ -1,0 +1,31 @@
+{
+  "itemName" : "glitchtier1head",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The iron helm of the knave, it only protects the top of the head.",
+  "shortdescription" : "Knave's Helm",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "coldprotection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 4.5
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 15
+    }
+  ]
+}

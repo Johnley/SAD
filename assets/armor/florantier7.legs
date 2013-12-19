@@ -1,0 +1,30 @@
+{
+  "itemName" : "florantier7pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The gatherers skirt makes the sound of rustling leaves as they creep towards their prey.",
+  "shortdescription" : "Gatherer's Skirt",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "13"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 48
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 2.2
+    }
+  ]
+}

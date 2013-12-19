@@ -1,0 +1,32 @@
+{
+  "itemName" : "hotholidayhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Mrs. Claus's holiday hat!",
+  "shortdescription" : "Mrs. Claus's Hat",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1.5"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 5,
+      "amount" : 0.3
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.3
+    }
+  ]
+}

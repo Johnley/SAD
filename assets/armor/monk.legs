@@ -1,0 +1,25 @@
+{
+  "itemName" : "monklegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The bottom of some monk robes.",
+  "shortdescription" : "Monk Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pantsM.png",
+  "femaleFrames" : "pantsF.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 0
+    }
+  ]
+}

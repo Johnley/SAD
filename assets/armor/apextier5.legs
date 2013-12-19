@@ -1,0 +1,30 @@
+{
+  "itemName" : "apextier5pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Pants and boots that are far lighter than they appear - Ideal equipment for sneaking about.",
+  "shortdescription" : "Rogue's Pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "9"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 26
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 1.35
+    }
+  ]
+}

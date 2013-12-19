@@ -1,0 +1,10 @@
+{
+  "itemName" : "rocketjump",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/rocketjump.png",
+  "description" : "Unlocks the Rocket Jump tech.",
+  "shortdescription" : "Rocket Jump",
+  "inspectionKind" : "tech",
+
+  "techModule" : "rocketjump.tech"
+}

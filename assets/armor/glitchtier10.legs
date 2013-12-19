@@ -1,0 +1,31 @@
+{
+  "itemName" : "glitchtier10pants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The doom lord's boots rattle a planet with each step.",
+  "shortdescription" : "Doom Lord's Greaves",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "19"
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 100
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 4
+    }
+  ]
+}
+
