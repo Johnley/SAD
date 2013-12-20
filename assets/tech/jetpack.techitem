@@ -1,7 +1,7 @@
 {
   "itemName" : "jetpackTech",
   "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/gravityball.png",
+  "inventoryIcon" : "gravityball.png",
   "description" : "Unlocked the Gravity Bubble tech.",
   "shortdescription" : "Gravity Bubble",
   "inspectionKind" : "tech",

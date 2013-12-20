@@ -1,7 +1,7 @@
 {
   "itemName" : "cameramanboost",
   "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/bubbleboost.png",
+  "inventoryIcon" : "bubbleboost.png",
   "description" : "Unlocks the Camera Man boost tech.",
   "shortdescription" : "Camera Man Boost",
   "inspectionKind" : "tech",

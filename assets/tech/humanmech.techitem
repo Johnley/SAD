@@ -1,7 +1,7 @@
 {
   "itemName" : "humanMechTech",
   "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/humanmech.png",
+  "inventoryIcon" : "humanmech.png",
   "description" : "Use this tech, spawn a mech. Then destroy things.",
   "shortdescription" : "Human Mech",
   "inspectionKind" : "tech",

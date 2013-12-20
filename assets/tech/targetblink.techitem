@@ -1,7 +1,7 @@
 {
   "itemName" : "targetblinktech",
   "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/blink.png",
+  "inventoryIcon" : "blink.png",
   "description" : "Teleport to your chosen destination with this Targeted Blink tech!",
   "shortdescription" : "Targeted Blink",
   "inspectionKind" : "tech",

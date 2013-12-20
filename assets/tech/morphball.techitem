@@ -1,7 +1,7 @@
 {
   "itemName" : "morphballTech",
   "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/morphball.png",
+  "inventoryIcon" : "morphball.png",
   "description" : "Stop, drop and roll with this incredible Morphball tech!",
   "shortdescription" : "Morphball",
   "inspectionKind" : "tech",

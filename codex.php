@@ -46,8 +46,18 @@ if(isset($_GET['entry'])){
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
-            <li><a href="categories.php">Categories</a></li>
-            <li><a href="http://www.reddit.com/message/compose/?to=DrJohnley">Help</a></li>
+            <li class="dropdown">
+              <a href="categories.php" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="armor.php">Armor</a></li>
+                <li><a href="tech.php">Techs</a></li>
+                <li><a href="object.php">Objects</a></li>
+                <li class="active"><a href="codex.php">Codex</a></li>
+                <li><a href="consumable.php">Consumables</a></li>
+                <li><a href="item.php">Items</a></li>
+              </ul>
+            </li>
+            <li><a href="help.php">Help</a></li>
             
           </ul>
           

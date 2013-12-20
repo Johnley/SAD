@@ -1,7 +1,7 @@
 {
   "itemName" : "bubbleboost",
   "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/bubbleboost.png",
+  "inventoryIcon" : "bubbleboost.png",
   "description" : "Unlocks the Bubble Boost tech.",
   "shortdescription" : "Bubble Boost",
   "inspectionKind" : "tech",

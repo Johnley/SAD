@@ -1,7 +1,7 @@
 {
   "itemName" : "dashTech",
   "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/dash.png",
+  "inventoryIcon" : "dash.png",
   "description" : "Unlocked the Energy Dash tech.",
   "shortdescription" : "Energy Dash",
   "inspectionKind" : "tech",

@@ -1,7 +1,7 @@
 {
   "itemName" : "hoverTech",
   "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/hover.png",
+  "inventoryIcon" : "hover.png",
   "description" : "Unlocks the Gravity Neutraliser Tech.",
   "shortdescription" : "Gravity Neutraliser",
   "inspectionKind" : "tech",

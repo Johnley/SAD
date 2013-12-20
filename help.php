@@ -42,9 +42,19 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="categories.php">Categories</a></li>
-            <li><a href="http://www.reddit.com/message/compose/?to=DrJohnley">Help</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li class="dropdown">
+              <a href="categories.php" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="armor.php">Armor</a></li>
+                <li><a href="tech.php">Techs</a></li>
+                <li><a href="object.php">Objects</a></li>
+                <li><a href="codex.php">Codex</a></li>
+                <li><a href="consumable.php">Consumables</a></li>
+                <li><a href="item.php">Items</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="help.php">Help</a></li>
             
           </ul>
           
@@ -52,31 +62,24 @@
       </div>
     </div>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, Starbounders!</h1>
-        <p>This is small website that is built off of the files from the game starbound. over the next few days, I have plans to add more categories, but for now, take a look at in-game info, out of game!</p>
-        <p><a class="btn btn-primary btn-lg" href="categories.php" role="button">Lets go! &raquo;</a></p>
-      </div>
-    </div>
 
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>The Beast</h2>
-          <p>Humanity fled their home planet, the one they call Earth, after a rapidly-growing beast landed upon the surface, and within no time at all, began to consume their entire world. I have no words. </p><br><br>
-          <p><a class="btn btn-default" href="codex.php?entry=bunkerbeast.codex" role="button">View &raquo;</a></p>
+          <h2>Github</h2>
+          <p>Check out my github for source code and to open an issue.</p><br><br>
+          <p><a class="btn btn-default" href="http://github.com/Johnley/SAD/" role="button">Github! &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Guest in the Castle</h2>
-          <p>The Glitch may not be the warmest of people on the outside, but their hospitality is undisputable. They found me scaling the castle wall, simply wanting to have a look through a tower window, and politely invited me inside. Now, of course it sounded like a trap, so there was a bit of a scuffle... </p>
-          <p><a class="btn btn-default" href="codex.php?entry=castleguest.codex" role="button">View &raquo;</a></p>
+          <h2>Tweeter Me</h2>
+          <p>You can also find me on twitter as @SecretlyAlaskan </p><br><br><br>
+          <p><a class="btn btn-default" href="http://twitter.com/SecretlyAlaskan" role="button">Twitter! &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Glitch Hierarchy</h2>
-          <p>The Glitch - at least those who remain true to their roots - are unusual in that they have no hierarchy system. Their roles are interchangeable; a Glitch who may be a baker one day will be a stonemason the next. What is curious is the lack of vocal organisation.</p><br>
-          <p><a class="btn btn-default" href="codex.php?entry=hierarchycorale.codex" role="button">View &raquo;</a></p>
+          <h2>And finally, The forums</h2>
+          <p>send me a message on the forums if you can't seem to get to me any other way.</p><br><br>
+          <p><a class="btn btn-default" href="http://community.playstarbound.com/index.php?members/johnley.52086/" role="button">Forums! &raquo;</a></p>
         </div>
       </div>
 

@@ -46,8 +46,18 @@ if(isset($_GET['entry'])){
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
-            <li><a href="categories.php">Categories</a></li>
-            <li><a href="http://www.reddit.com/message/compose/?to=DrJohnley">Help</a></li>
+            <li class="dropdown">
+              <a href="categories.php" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="armor.php">Armor</a></li>
+                <li><a href="tech.php">Techs</a></li>
+                <li><a href="object.php">Objects</a></li>
+                <li><a href="codex.php">Codex</a></li>
+                <li class="active"><a href="consumable.php">Consumables</a></li>
+                <li><a href="item.php">Items</a></li>
+              </ul>
+            </li>
+            <li><a href="help.php">Help</a></li>
             
           </ul>
           
@@ -75,6 +85,7 @@ if(isset($_GET['entry'])){
 	$display_string .= "<div class=\"panel-heading\"><h3 class=\"panel-title\">".$json->shortdescription."</h3></div>";
 	$display_string .= "<div class=\"panel-body\">";
 	$display_string .= "<table class=\"table\">";
+	$display_string .= "<tr><td>Inventory Icon: </td><td><img src=\"assets/images/".$json->inventoryIcon."\" width=\"20\" height=\"20\"></td></tr>";
 	$display_string .= "<tr><td>Rarity: </td><td>".$json->rarity."</td></tr>";
 	$display_string .= "<tr><td>Description: </td><td>".$json->description."</td></tr>";
 	$display_string .= "<tr><td>Effects: </td><td><table class=\"table\"><tr><td>".$json->effects[0][0]->kind."</td><td>".$json->effects[0][0]->amount."</td></tr><tr><td>".$json->effects[0][1]->kind."</td><td>".$json->effects[0][1]->amount."</td></tr><tr><td>".$json->effects[0][2]->kind."</td><td>".$json->effects[0][2]->amount."</td></tr></table></td></tr>";
