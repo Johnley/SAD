@@ -1,0 +1,55 @@
+{
+  "itemName" : "aviantier5axe",
+  "level" : 1,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Hawkbill. A hooked axe.",
+  "shortdescription" : "Hawkbill",
+  "inspectionKind" : "sword",
+  "kind" : "Axe",
+
+  "image" : "aviantier5axe.png",
+  "firePosition" : [12.5, -3.5],
+  "fireTime" : 0.8,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_axe.wav" } ] },
+
+  
+
+  "primaryStances" : {
+    "projectileType" : "axeswoosh1",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 167
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-7.7, -18.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-7.7, -18.5],
+      "duration" : 0.2,
+      "statusEffects" : [
+      { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-4.7, -30],
+      "duration" : 0.4,
+      "statusEffects" : [
+      { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

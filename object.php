@@ -30,7 +30,7 @@ if(isset($_GET['entry'])){
 ?>
 
   <body>
-
+	<div id="wrap">
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
@@ -55,6 +55,7 @@ if(isset($_GET['entry'])){
                 <li><a href="codex.php">Codex</a></li>
                 <li><a href="consumable.php">Consumables</a></li>
                 <li><a href="item.php">Items</a></li>
+				<li><a href="gun.php">Ranged Weapons</a></li>
               </ul>
             </li>
             <li><a href="help.php">Help</a></li>
@@ -119,10 +120,10 @@ foreach($phpfiles as $phpfile)
 $display_string .= "</div>";
 echo $display_string;
 }
-?></div> <!-- /container -->
+?></div></div><!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
+<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>

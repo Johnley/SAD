@@ -1,0 +1,55 @@
+{
+  "itemName" : "aviantier4hammer",
+  "level" : 1,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Candy Crusher. A hammer that looks like a piece of candy.",
+  "shortdescription" : "Candy Crusher",
+  "inspectionKind" : "sword",
+  "kind" : "Hammer",
+
+  "image" : "aviantier4hammer.png",
+  "firePosition" : [12.5, -3.5],
+  "fireTime" : 0.9,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
+
+  
+
+  "primaryStances" : {
+    "projectileType" : "hammerswoosh1",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 120
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -14.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [-2.7, -14.5],
+      "duration" : 0.2,
+      "statusEffects" : [
+      { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -45,
+      "swordAngle" : -90,
+      "handPosition" : [-2.7, -27],
+      "duration" : 0.4,
+      "statusEffects" : [
+      { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

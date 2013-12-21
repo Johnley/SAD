@@ -55,6 +55,7 @@ if(isset($_GET['entry'])){
                 <li><a href="codex.php">Codex</a></li>
                 <li><a href="consumable.php">Consumables</a></li>
                 <li class="active"><a href="item.php">Items</a></li>
+				<li><a href="gun.php">Ranged Weapons</a></li>
               </ul>
             </li>
             <li><a href="#contact">Help</a></li>

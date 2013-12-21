@@ -52,6 +52,7 @@
                 <li><a href="codex.php">Codex</a></li>
                 <li><a href="consumable.php">Consumables</a></li>
                 <li><a href="item.php">Items</a></li>
+				<li><a href="gun.php">Ranged Weapons</a></li>
               </ul>
             </li>
             <li><a href="help.php">Help</a></li>
@@ -95,6 +96,11 @@
           <h2>Items</h2>
           <p>These are things. things that go in your inventory, usually coming from other things, like ores and dirt.</p>
           <p><a class="btn btn-default" href="item.php" role="button">View &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Ranged Weapons</h2>
+          <p>Just the ones that starbound ships with, the randomly generated ones you have to find yourself!</p>
+          <p><a class="btn btn-default" href="gun.php" role="button">View &raquo;</a></p>
         </div>
     </div> <!-- /container -->
 
