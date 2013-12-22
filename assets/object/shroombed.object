@@ -29,7 +29,7 @@
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 
-  "inventoryIcon" : "shroombedicon.png",
+  "inventoryIcon" : "shroombedIcon.png",
   "orientations" : [
     {
       "dualImage" : "shroombed.png:<color>",
