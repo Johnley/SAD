@@ -1,129 +1,135 @@
 <?php
-if(isset($_GET['entry'])){
-	$directory = "assets/consumable/";
-	$codex = $directory.$_GET['entry'];
-	
-	ob_start();                      // start capturing output
-	include($codex);   // execute the file
-	$content = ob_get_contents();    // get the contents from the buffer
-	ob_end_clean(); 
-	$json = json_decode($content);
-	
-	$header = "SB Assets | ".$json->shortdescription;
-}else{
-	$header = "SB Assets | Consumables";}
-	
-	$header_string = "<!DOCTYPE html>";
-	$header_string .= "<head>";
-	$header_string .= "<meta charset=\"utf-8\">";
-	$header_string .= "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">";
-	$header_string .= "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
-	$header_string .= "<meta name=\"description\" content=\"".$json->description."\">";
-	$header_string .= "<title>".$header."</title>";
-	$header_string .= "<link href=\"dist/css/bootstrap.css\" rel=\"stylesheet\">";
-	$header_string .= "<link href=\"dist/css/navbar-fixed-top.css\" rel=\"stylesheet\">";
-	$header_string .= "</head>";
-	
-	echo $header_string;
-	
+if (isset($_GET['entry'])) {
+    $directory = "assets/consumable/";
+    $codex = $directory . $_GET['entry'];
+
+    ob_start(); // start capturing output
+    include($codex); // execute the file
+    $content = ob_get_contents(); // get the contents from the buffer
+    ob_end_clean();
+    $json = json_decode($content);
+
+    $header = "SB Assets | " . $json->shortdescription;
+} else {
+    $header = "SB Assets | Consumables";
+}
+
+$header_string = "<!DOCTYPE html>";
+$header_string .= "<head>";
+$header_string .= "<meta charset=\"utf-8\">";
+$header_string .= "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">";
+$header_string .= "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
+$header_string .= "<meta name=\"description\" content=\"" . $json->description . "\">";
+$header_string .= "<title>" . $header . "</title>";
+$header_string .= "<link href=\"dist/css/bootstrap.css\" rel=\"stylesheet\">";
+$header_string .= "<link href=\"dist/css/navbar-fixed-top.css\" rel=\"stylesheet\">";
+$header_string .= "</head>";
+
+echo $header_string;
+
 
 ?>
 
-  <body>
+<body>
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.php">SB Assets</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php">SB Assets</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.php">Home</a></li>
-            <li class="dropdown">
-              <a href="categories.php" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="armor.php">Armor</a></li>
-                <li><a href="tech.php">Techs</a></li>
-                <li><a href="object.php">Objects</a></li>
-                <li><a href="codex.php">Codex</a></li>
-                <li class="active"><a href="consumable.php">Consumables</a></li>
-                <li><a href="item.php">Items</a></li>
-				<li><a href="gun.php">Ranged Weapons</a></li>
-              </ul>
-            </li>
-            <li><a href="help.php">Help</a></li>
-            
-          </ul>
-          
-        </div><!--/.nav-collapse -->
-      </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.php">Home</a></li>
+                <li class="dropdown">
+                    <a href="categories.php" class="dropdown-toggle" data-toggle="dropdown">Categories <b
+                            class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="armor.php">Armor</a></li>
+                        <li><a href="tech.php">Techs</a></li>
+                        <li><a href="object.php">Objects</a></li>
+                        <li><a href="codex.php">Codex</a></li>
+                        <li class="active"><a href="consumable.php">Consumables</a></li>
+                        <li><a href="item.php">Items</a></li>
+                        <li><a href="gun.php">Ranged Weapons</a></li>
+                        <li><a href="sword.php">Melee Weapons</a></li>
+                    </ul>
+                </li>
+                <li><a href="help.php">Help</a></li>
+
+            </ul>
+
+        </div>
+        <!--/.nav-collapse -->
     </div>
+</div>
 
-    <div class="container">
-<?php
-function json_decode_nice($json, $assoc = FALSE){
-    $json = str_replace(array("\n","\r"),"",$json);
-    $json = preg_replace('/([{,]+)(\s*)([^"]+?)\s*:/','$1"$3":',$json);
-    return json_decode($json,$assoc);
-} 
-if(isset($_GET['entry'])){
-	$directory = "assets/consumable/";
-	$tech = $directory.$_GET['entry'];
-	
-	ob_start();                      // start capturing output
-	include($tech);   // execute the file
-	$content = ob_get_contents();    // get the contents from the buffer
-	ob_end_clean(); 
-	$json = json_decode($content);
-	$display_string = "<div class=\"panel panel-primary\">";
-	$display_string .= "<div class=\"panel-heading\"><h3 class=\"panel-title\">".$json->shortdescription."</h3></div>";
-	$display_string .= "<div class=\"panel-body\">";
-	$display_string .= "<table class=\"table\">";
-	$display_string .= "<tr><td>Inventory Icon: </td><td><img src=\"assets/images/".$json->inventoryIcon."\" width=\"20\" height=\"20\"></td></tr>";
-	$display_string .= "<tr><td>Rarity: </td><td>".$json->rarity."</td></tr>";
-	$display_string .= "<tr><td>Description: </td><td>".$json->description."</td></tr>";
-	$display_string .= "<tr><td>Effects: </td><td><table class=\"table\"><tr><td>".$json->effects[0][0]->kind."</td><td>".$json->effects[0][0]->amount."</td></tr><tr><td>".$json->effects[0][1]->kind."</td><td>".$json->effects[0][1]->amount."</td></tr><tr><td>".$json->effects[0][2]->kind."</td><td>".$json->effects[0][2]->amount."</td></tr></table></td></tr>";
-	$display_string .= "</table>";
+<div class="container">
+    <?php
+    function json_decode_nice($json, $assoc = FALSE)
+    {
+        $json = str_replace(array("\n", "\r"), "", $json);
+        $json = preg_replace('/([{,]+)(\s*)([^"]+?)\s*:/', '$1"$3":', $json);
+        return json_decode($json, $assoc);
+    }
 
-	$display_string .= "</div>";
-	
-	echo $display_string;
-	echo "<div class=\"panel-footer\"><a href=\"consumable.php\">Back</a></div></div>";
-	
-}else{
-$directory = "assets/consumable/";
-$phpfiles = glob($directory . "*.*");
-natcasesort($phpfiles);
-$display_string = "<div class=\"list-group\">";
-foreach($phpfiles as $phpfile)
-{
-    ob_start();                      // start capturing output
-	include($phpfile);   // execute the file
-	$content = ob_get_contents();    // get the contents from the buffer
-	ob_end_clean(); 
-	$json = json_decode($content);
-	
-	$display_string .= "<a href=\"consumable.php?entry=".basename($phpfile)."\" class=\"list-group-item\">".$json->shortdescription."</a>";
-	
-}
+    if (isset($_GET['entry'])) {
+        $directory = "assets/consumable/";
+        $tech = $directory . $_GET['entry'];
 
-$display_string .= "</div>";
-echo $display_string;
-}
-?></div> <!-- /container -->
+        ob_start(); // start capturing output
+        include($tech); // execute the file
+        $content = ob_get_contents(); // get the contents from the buffer
+        ob_end_clean();
+        $json = json_decode($content);
+        $display_string = "<div class=\"panel panel-primary\">";
+        $display_string .= "<div class=\"panel-heading\"><h3 class=\"panel-title\">" . $json->shortdescription . "</h3></div>";
+        $display_string .= "<div class=\"panel-body\">";
+        $display_string .= "<table class=\"table\">";
+        $display_string .= "<tr><td>Inventory Icon: </td><td><img src=\"assets/images/" . $json->inventoryIcon . "\" width=\"20\" height=\"20\"></td></tr>";
+        $display_string .= "<tr><td>Rarity: </td><td>" . $json->rarity . "</td></tr>";
+        $display_string .= "<tr><td>Description: </td><td>" . $json->description . "</td></tr>";
+        $display_string .= "<tr><td>Effects: </td><td><table class=\"table\"><tr><td>" . $json->effects[0][0]->kind . "</td><td>" . $json->effects[0][0]->amount . "</td></tr><tr><td>" . $json->effects[0][1]->kind . "</td><td>" . $json->effects[0][1]->amount . "</td></tr><tr><td>" . $json->effects[0][2]->kind . "</td><td>" . $json->effects[0][2]->amount . "</td></tr></table></td></tr>";
+        $display_string .= "</table>";
+
+        $display_string .= "</div>";
+
+        echo $display_string;
+        echo "<div class=\"panel-footer\"><a href=\"consumable.php\">Back</a></div></div>";
+
+    } else {
+        $directory = "assets/consumable/";
+        $phpfiles = glob($directory . "*.*");
+        natcasesort($phpfiles);
+        $display_string = "<div class=\"list-group\">";
+        foreach ($phpfiles as $phpfile) {
+            ob_start(); // start capturing output
+            include($phpfile); // execute the file
+            $content = ob_get_contents(); // get the contents from the buffer
+            ob_end_clean();
+            $json = json_decode($content);
+
+            $display_string .= "<a href=\"consumable.php?entry=" . basename($phpfile) . "\" class=\"list-group-item\">" . $json->shortdescription . "</a>";
+
+        }
+
+        $display_string .= "</div>";
+        echo $display_string;
+    }
+    ?></div>
+<!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-  </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+</body>
 </html>
