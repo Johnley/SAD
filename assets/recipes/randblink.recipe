@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "randblinktech",
+    "count" : 1
+  },
+  "groups" : [ "tech" ]
+}

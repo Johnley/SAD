@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "cameramanboost",
+    "count" : 1
+  },
+  "groups" : [ "tech" ]
+}

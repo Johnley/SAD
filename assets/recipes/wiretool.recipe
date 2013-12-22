@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "composite01material", "count" : 20 },
+    { "item" : "copperbar", "count" : 10 },
+    { "item" : "silverbar", "count" : 10 },
+    { "item" : "goldbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "wiretool",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "all", "tools" ]
+}

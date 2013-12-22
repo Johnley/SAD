@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "humanMechTech",
+    "count" : 1
+  },
+  "groups" : [ "tech" ]
+}

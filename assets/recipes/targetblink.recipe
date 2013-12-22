@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "targetblinktech",
+    "count" : 1
+  },
+  "groups" : [ "tech" ]
+}

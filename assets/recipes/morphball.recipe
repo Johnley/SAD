@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "morphballTech",
+    "count" : 1
+  },
+  "groups" : [ "tech" ]
+}

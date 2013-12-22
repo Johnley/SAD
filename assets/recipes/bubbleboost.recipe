@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "bubbleboost",
+    "count" : 1
+  },
+  "groups" : [ "tech" ]
+}
