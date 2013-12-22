@@ -1,7 +1,10 @@
 {
   "input" : [
-    { "item" : "diamond", "count" : 1 }
+    { "item" : "diamondore", "count" : 4 }
   ],
-  "output" : { "item" : "money", "count" : 200 },
-  "groups" : [ "refinery" ]
+  "output" : {
+    "item" : "diamond",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
 }

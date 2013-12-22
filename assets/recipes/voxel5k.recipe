@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "money", "count" : 5000 }
+    { "item" : "voxel5k", "count" : 1 }
   ],
-  "output" : { "item" : "voxel5k", "count" : 1 },
-  "groups" : [ "compressor" ]
+  "output" : { "item" : "money", "count" : 3000 },
+  "groups" : [ "refinery" ]
 }

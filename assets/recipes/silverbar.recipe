@@ -1,7 +1,10 @@
 {
   "input" : [
-    { "item" : "silverbar", "count" : 1 }
+    { "item" : "silverore", "count" : 2 }
   ],
-  "output" : { "item" : "money", "count" : 30 },
-  "groups" : [ "refinery" ]
+  "output" : {
+    "item" : "silverbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
 }

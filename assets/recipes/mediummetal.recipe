@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "money", "count" : 50 }
+    { "item" : "steelbar", "count" : 1 }
   ],
-  "output" : { "item" : "mediummetal", "count" : 1 },
-  "groups" : [ "plain", "materials", "all" ]
+  "output" : { "item" : "mediummetal", "count" : 3 },
+  "groups" : [ "metalworkstation", "materials", "all" ]
 }
